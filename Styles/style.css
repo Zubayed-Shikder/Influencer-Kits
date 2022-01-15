@@ -8,6 +8,13 @@ body{
 main{
     font-family: 'Poppins', sans-serif;    
 }
+/* header style */
+.header-info{
+    margin:80px 120px;
+    display:flex;
+    justify-content: space-between;
+    font-size:30px;
+}
 /* ---------******---------
 influencer frist love style start
 ------------******------------- */
@@ -97,6 +104,41 @@ text-align: center;
     color:#E02C6D;
     text-decoration: none;
     font:15px;
+}
+/* feature product style */
+.feature-content{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    margin: 165px;
+}
+.feature-img img{
+    height:270px;
+    width:420px;
+    border-radius:5px;
+
+}
+.feature-info h2{
+    font-size: 40px;
+}
+.feature-info p{
+    color: #6C6C6C;
+    text-align: justify;
+    font-size: 16px;
+}
+.connect-button{
+    display: flex;
+    height:45px;
+    width:195px;
+    background-color:#E02C6D;
+    border-radius:3px;
+    align-items:center;
+    justify-content:center;
+}
+.connect-button a{
+    color:#FFFFFF;
+    font-size:15px;
+    text-decoration: none;
 }
 /* footer section style */
 footer{
