@@ -1,0 +1,44 @@
+/* --------******---------
+influencer frist love style start
+------------******------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ubuntu&display=swap');
+main{
+    font-family: 'Poppins', sans-serif;    
+}
+.preorder-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 120px;
+}
+.half-width{
+    width: 50%;
+}
+.product-title{
+    font-size:50px;
+    font-weight: 700;
+}
+.product-discription{
+    text-align: justify;
+}
+.prebook-button{
+    display: flex;
+    height:45px;
+    width:195px;
+    background-color:#E02C6D;
+    border-radius:40px;
+    align-items:center;
+    justify-content:center;
+}
+.prebook-button a{
+    color:#FFFFFF;
+    font-size:15px;
+    text-decoration: none;
+}
+.camera-img{
+    border: 50px solid rgba(233, 232, 216, 0.842);
+    border-radius:75%;
+    display: flex;
+}
+.camera-img:hover img{
+transform: scale(1.3);
+}
