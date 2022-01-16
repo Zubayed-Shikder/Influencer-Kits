@@ -49,7 +49,15 @@ influencer frist love style start
     border: 10px solid rgba(233, 232, 216, 0.842);
     border-radius:20px;
     background-color: honeydew;
+    animation-name: colorful;
     animation-duration: 4s;
+}
+@keyframes colorful{
+    0% { background-color: rgba(155, 221, 172, 0.959);}
+    25% { background-color: rgb(197, 185, 166);}
+    50% { background-color: rgba(182, 227, 233, 0.774);}
+    75% { background-color: rgba(209, 199, 185, 0.774);}
+    100% { background-color: rgb(243, 245, 222);}
 }
 .product-title{
     font-size:50px;
