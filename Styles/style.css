@@ -49,8 +49,6 @@ influencer frist love style start
     border: 10px solid rgba(233, 232, 216, 0.842);
     border-radius:20px;
     background-color: honeydew;
-    transform:perspective()
-    animation: ease-in;
     animation-duration: 4s;
 }
 .product-title{
@@ -200,10 +198,93 @@ footer{
     justify-content: space-between;
     font-size: 30px;
 }
-/* responsive design for mobile device */
-@media only screen and (max-width: 600px) {
-    .header-info{
-        display:flex;
-        justify-content:space-between;
+
+
+
+
+
+
+
+
+/*************************************
+ responsive design for mobile device ************************************/
+@media only screen and (max-width: 767px) {
+    /* main style for mobaile device */
+    body{
+    display: grid;
+    margin: 0;
+    padding: 0;
     }
+
+    .header-info{
+        display:grid;
+grid-template-columns:1fr;
+    }
+    .header-info h3{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0%;
+        padding: 0%;
+    }
+/* preorder items style */
+.preorder-item{
+    display:grid;
+    grid-template-columns: 1fr;
+    margin:0;
+}
+.half-width{
+    width:auto;
+}
+.pre-item-about{
+    width: 400px;
+}
+.camera-img{
+    /* display: flex; */
+    height: 300px;
+    width:300px;
+}
+.camera-img:hover img{
+transform: scale(1.3);
+}
+/* sponcer style */
+.sponser{
+    width:auto;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    padding:2%;
+}
+/*-------popular collection style-------*/
+.popular-collection{
+    display: grid;
+    grid-template-columns:1fr;
+    height:auto;
+    width:auto;
+    margin:0;
+}
+    .popular-items{
+        display: grid;
+        grid-template-columns:1fr;
+    }
+    .seemore-button{
+        display: flex;
+        justify-content:flex-start;
+    }
+    /* feature product style */
+.feature-content{
+    display:grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    margin:0;
+    width: 400px;
+    text-align: center;
+}
+.feature-info p{
+    text-align:center;
+}
 }
